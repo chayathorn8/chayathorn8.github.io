@@ -150,7 +150,7 @@ Letter.prototype.render = function( char ) {
   
 };
 
-var word = [ "CODEDOODL.ES", "ANIMATION", "INSPIRATION" ];
+var word = [ "5 9 0 2 1 0 0 2 0 2 6" , "C H A Y A T H O R N", "C O M S C I", "R M U T K" ];
 var nextWord = 1;
 
 var letters = new Letters();
@@ -165,6 +165,6 @@ setTimeout( function() {
       nextWord = 0;
     
     letters.start( word[ nextWord ] );
-  }, 10000);
+  }, 5000);
   
 }, 2000);
