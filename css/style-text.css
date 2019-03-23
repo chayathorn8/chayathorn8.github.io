@@ -1,0 +1,26 @@
+
+		.box {
+			max-width: 70vw;
+			/*padding: 30px;*/
+			margin: 0 auto;
+			position: relative;
+			top: 50%;
+			font-size: 53px;
+			line-height: 1.5;
+			transform: translateY(-50%);
+			perspective: 400px;
+		}
+
+		.source {
+			color: skyblue;
+			margin: 0 auto;
+		}
+  .split{
+    text-align:center;
+  }
+		.split .characters{
+			display: inline-block;
+		}
+		.split .separate{
+			position: absolute;
+		}
